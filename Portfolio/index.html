@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit's Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4bb.png" type="image/png">
+</head>
+<body>
+    <canvas id="tech-particles" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-1;pointer-events:none;"></canvas>
+    <header>
+        <nav>
+            <div class="navbar-tabs">
+                <a class="tab-btn active" href="index.html">About</a>
+                <a class="tab-btn" href="projects.html">Projects</a>
+                <a class="tab-btn" href="skills.html">Skills</a>
+                <a class="tab-btn" href="contact.html">Contact</a>
+            </div>
+        </nav>
+        <div class="header-content">
+            <div class="profile-pic-container">
+                <img src="pfp.jpg" alt="Rohit Selote" class="profile-pic">
+                <div class="neon-ring"></div>
+            </div>
+            <h1>Rohit Selote</h1>
+            <span class="h1-underline"></span>
+            <p class="typewriter"><span id="typewriter-text"></span></p>
+        </div>
+        <div class="header-accent">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,40 Q360,80 720,40 T1440,40 V80 H0 Z" fill="url(#waveGradient)"/>
+                <defs>
+                    <linearGradient id="waveGradient" x1="0" y1="0" x2="1440" y2="80" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#00eaff"/>
+                        <stop offset="1" stop-color="#ff9800"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I’m a Computer Science and Engineering student who loves building things with code and exploring how tech can solve real problems. I'm especially interested in AI, machine learning, and software development.</p>
+            <p>Always curious and eager to learn, I’m working on projects that push me to grow and connect with others who are just as passionate about tech. Let’s connect and build something great together!</p>
+        </section>
+    </main>
+    <script src="scripts/particles.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
